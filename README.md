@@ -1,5 +1,10 @@
 #Notas
 ```
+               //App de consola interactiva realizada en Node
+ 
+    El funcionamiento de la aplicacion es confeccionar tablas de multiplicar con 
+posterior guardado automatico en directorio definido.
+
  Opciones:
       --help     Muestra ayuda                                        [booleano]
       --version  Muestra número de versión                            [booleano]
