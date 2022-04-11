@@ -11,12 +11,14 @@ const argv = require("yargs")
         }
         return true
     })
+   
     .option("l", {
         alias: "listar",
         type: "boolean",
         describe: "Listar nos muestra la tabla de multiplicar y crea un archivo en el directorio",
         default: false
     })
+    
     .option("h", {
         alias: "hasta",
         type: "number",
@@ -27,9 +29,5 @@ const argv = require("yargs")
     .argv
 
 console.clear()
-//console.log("2", process.argv)
-//console.log("3", argv)
-//console.log("base: yargs", argv.base)
-//const base = 3
 
 module.exports = argv
